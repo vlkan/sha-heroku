@@ -62,7 +62,7 @@ function App() {
 
       // 5. TODO - Update drawing utility
       // drawSomething(obj, ctx)  
-      requestAnimationFrame(()=>{drawRect(boxes[0], classes[0], scores[0], 0.6, videoWidth, videoHeight, ctx)}); 
+      requestAnimationFrame(()=>{drawRect(boxes[0], classes[0], scores[0], 0.75, videoWidth, videoHeight, ctx)}); 
 
       tf.dispose(img)
       tf.dispose(resized)
@@ -105,7 +105,7 @@ function App() {
             textAlign: "center",
             zindex: 8,
             width: 640,
-            height: 480,
+            height: 640,
           }}
         />
       </header>
